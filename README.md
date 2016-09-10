@@ -9,6 +9,9 @@ Currently only available for Windows.
 Before compiling update library paths *FREETYPE_INCLUDE_DIRS* and *FREETYPE_LIBRARIES* in **CMakeList.txt**
 SDL2_image should be in the same directory as SDL2
 
+Project page (polish): http://warsztat.gd/projects/hbreakout
+Download (win x64): https://www.dropbox.com/s/bt3gw7lpdn4ckwi/HBreakout.rar?dl=0
+
 Known bugs
 ----------
 * Physics module: Collision rarely can't be detected (when in one frame ball will collide with the same object, for example level bounds, twice in a row).
